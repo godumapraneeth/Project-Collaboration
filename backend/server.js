@@ -21,7 +21,7 @@ import chatRoutes from "./routes/chatRoutes.js";
 connectDB();
 
 const corsOptions={
-  origin:process.env.CLIENT_URL,
+  origin:https://project-collaboration.vercel.app,
   credentials:true,
   optionsSuccessStatus:200
 }
@@ -29,7 +29,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, { 
   cors: {
-     origin: process.env.CLIENT_URL,
+     origin: https://project-collaboration.vercel.app,
      methods:["GET","POST"],
      credentials:true,    
     } });
