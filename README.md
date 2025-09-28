@@ -61,7 +61,13 @@ Ensure you have the following installed:
 
 2.  **Frontend Configuration (if any):**
 
+<<<<<<< HEAD
     *(Add any frontend-specific configuration steps here if applicable, e.g., API endpoint URLs.)*
+=======
+    ```env
+    VITE_API_URL=Backend-url
+    
+>>>>>>> f7cf6a4e57341cf8812ef02d5956adde44489ba0
 
 ### Running the Application
 
